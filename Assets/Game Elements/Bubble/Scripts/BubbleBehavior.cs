@@ -1,5 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
+using Events;
 
 public class BubbleBehavior : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class BubbleBehavior : MonoBehaviour
             float newBubbleSize = _currentBubbleSize + otherBubbleSize;
             transform.DOScale(newBubbleSize, mergeTime);  
             _currentBubbleSize = newBubbleSize;
+            EventManager.Dispatch(BubbleEvents.bubbleMerged, _currentBubbleSize);
         }
         else if(otherBubbleSize > _currentBubbleSize)
         {

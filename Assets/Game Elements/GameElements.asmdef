@@ -1,0 +1,16 @@
+{
+    "name": "Bubble",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0f633e0f2b72d4d429ddcc8d4459769e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
