@@ -591,6 +591,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubble (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8980010880615997377, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
+      propertyPath: m_Color.b
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980010880615997377, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
+      propertyPath: m_Color.g
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980010880615997377, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5058824
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -797,6 +809,14 @@ PrefabInstance:
     - target: {fileID: 7493243756108149684, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
       propertyPath: m_Name
       value: Bubble (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980010880615997377, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980010880615997377, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
+      propertyPath: m_Color.r
+      value: 0.58431375
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1243,6 +1263,14 @@ PrefabInstance:
     - target: {fileID: 7493243756108149684, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
       propertyPath: m_Name
       value: Bubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980010880615997377, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
+      propertyPath: m_Color.b
+      value: 0.39215687
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980010880615997377, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
+      propertyPath: m_Color.g
+      value: 0.39215687
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

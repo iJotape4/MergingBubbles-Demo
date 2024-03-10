@@ -2,7 +2,7 @@ using DG.Tweening;
 using UnityEngine;
 using Events;
 using UnityEngine.EventSystems;
-using System;
+using UnityEngine.Events;
 
 public class BubbleBehavior : MonoBehaviour
 {
@@ -14,6 +14,9 @@ public class BubbleBehavior : MonoBehaviour
     [SerializeField] private float artifitialSizeIncreaseOnSelect = 0.05f; 
 
     DragView dragView;
+
+    public UnityAction annexedBubble;
+    public UnityAction increasedBubble;
 
     public float CurrentBubbleSize
     {
@@ -63,10 +66,12 @@ public class BubbleBehavior : MonoBehaviour
             transform.DOScale(newBubbleSize, mergeTime);  
             _currentBubbleSize = newBubbleSize;
             EventManager.Dispatch(BubbleEvents.bubbleMerged, _currentBubbleSize);
+            increasedBubble?.Invoke();
         }
         else if(otherBubbleSize > _currentBubbleSize)
         {
             float newBubbleSize = 0;
+            annexedBubble?.Invoke();
             transform.DOScale(newBubbleSize, mergeTime).OnComplete(() => DestroyBubble());
         }
         else if(_currentBubbleSize == otherBubbleSize) 

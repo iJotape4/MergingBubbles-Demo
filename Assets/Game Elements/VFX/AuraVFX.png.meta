@@ -1,0 +1,1447 @@
+fileFormatVersion: 2
+guid: 40c95f35ad6c6b44388f751ac5a38783
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AuraVFX_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3664
+        width: 362
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b22235a8b836f945bceff7a0a8d4bc8
+      internalID: 39064026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_1
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 3664
+        width: 364
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41f359b394c519458ef7e1ed997b193
+      internalID: -1476486836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_2
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 3662
+        width: 364
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06499f898082eda429d53c3bef0002fa
+      internalID: -1760981652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_3
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 3662
+        width: 368
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1473944e5f51ce54299712433dd6cbe6
+      internalID: 1921614353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_4
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 3660
+        width: 370
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3979c53d24ad5a746a3817d8dfd368b9
+      internalID: 1112230742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_5
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 3660
+        width: 370
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7682bbbc1e1d34f418f3316b1cbbbf70
+      internalID: 1160503478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_6
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 3660
+        width: 374
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f3d9491a4acad419e1d429de781297
+      internalID: 1725932431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_7
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 3674
+        width: 350
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909cc004e26d45a458e30d3311463fc4
+      internalID: -1507681981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3144
+        width: 376
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9a5bbb95c81cd4881da54eb5bd68be
+      internalID: 978641602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_9
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 3144
+        width: 376
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64244c318acb2a47976805cace913e3
+      internalID: 1062240387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_10
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 3142
+        width: 380
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a24d73bb150d24b9b1f9baa6686d1b
+      internalID: 1012138251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_11
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 3142
+        width: 380
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868e0e450e54ae045a06bb369db37249
+      internalID: -528294384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_12
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 3142
+        width: 384
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23410031b0427143a7d27c04d3d8146
+      internalID: -862108074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_13
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 3142
+        width: 384
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d558a51a27b75d3418328963c4a6df8c
+      internalID: -998434246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_14
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 3142
+        width: 384
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ec0a732d07ba4429dbf71c0bfb9fad
+      internalID: 1882921565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_15
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 3160
+        width: 350
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1457c2fdf4ee90409a84f8174aa22f2
+      internalID: 1867526702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2628
+        width: 386
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d23ebcdc0c24644aaa66e062a202ffe
+      internalID: -1211956574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_17
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2628
+        width: 386
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d422586e157edbe4da2fdb32daac2856
+      internalID: 1176701404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_18
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2628
+        width: 388
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d526bf5908d228d4a8fc8fcb0147907d
+      internalID: 220003891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_19
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2628
+        width: 388
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c37151fa1000164bae86ef8d1d096b4
+      internalID: 1028908786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_20
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 2628
+        width: 386
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c78b1ed11e9fe488b1f212116b08b1
+      internalID: 33320632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_21
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 2628
+        width: 386
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c59607ddfc6054ba4f74b32841088a
+      internalID: 236285742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_22
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2628
+        width: 386
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83521121eb2f413498285c4cd75ec041
+      internalID: 1122049670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_23
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 2646
+        width: 350
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23215f31196cc0943a31eade5f8fbecd
+      internalID: 416500153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2114
+        width: 386
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04254460b19c677409473a334e53415c
+      internalID: 856324903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_25
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2116
+        width: 384
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98ba0afca98fb64d8e18d5abfe636fb
+      internalID: 484685842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_26
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 2116
+        width: 384
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1b396e5fee1b64d809102ab2be9c86
+      internalID: -1765504881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_27
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 2116
+        width: 382
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393ca48987ea4cd4b84b81d3337c1f4a
+      internalID: -1070516325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_28
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 2118
+        width: 380
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b444a30e577454a43ba9ba8b3e03ca0b
+      internalID: 734880302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_29
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2118
+        width: 378
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dd3d09f72445b4296bdd2d52bf04d6
+      internalID: 1009054869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_30
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 2120
+        width: 378
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e6ed596e452ec4c812bd4d13234c3a
+      internalID: -1081552751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_31
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 2130
+        width: 350
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f5abc2526c6504baa29ae0811bde04
+      internalID: -1535816372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1606
+        width: 374
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2906900a1eb7f4fb9ebe86d377ba5c
+      internalID: -2128972637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_33
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1608
+        width: 374
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292dff75938551c46bff65fec7f059e9
+      internalID: 189534193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_34
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1608
+        width: 370
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2149693a66abf4aa6857ccc388e007
+      internalID: 1692954058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_35
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1610
+        width: 370
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a6735b36640134e9383f3bf28caca6
+      internalID: 1708140012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_36
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 1610
+        width: 368
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9042884b307e4ca45a08c9eba45e603e
+      internalID: 530597845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_37
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 1612
+        width: 366
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1613b68a1befb648b573816e9684ac9
+      internalID: -734838310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_38
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 1612
+        width: 364
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3970b7e63bd37d4296b3c284b306d9e
+      internalID: 1473765204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_39
+      rect:
+        serializedVersion: 2
+        x: 3676
+        y: 1616
+        width: 352
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229331d6bc18d9749bcaf62efa975333
+      internalID: -618634725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_40
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1100
+        width: 364
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c8e3986447c9c48a0001b3aa0b69c4
+      internalID: 1326319120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_41
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1100
+        width: 364
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6021f286d2fbb5a47a09a02d12a3a1e4
+      internalID: 528902273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_42
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1102
+        width: 360
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28d9345d2273974c9680e8f486ff2d1
+      internalID: 1302454986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_43
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1102
+        width: 360
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54795c96599ffa4f9aec27d88699a99
+      internalID: -2123061109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_44
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 1104
+        width: 358
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e20016da28ea434bbefa029d2d8f251
+      internalID: 64888322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_45
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 1104
+        width: 356
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e11d920ba4da384b8dc941745bbdf2b
+      internalID: 131118988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_46
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 1104
+        width: 356
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f32e663691fed41b6bccfe9f98f6ef
+      internalID: 673538827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_47
+      rect:
+        serializedVersion: 2
+        x: 3676
+        y: 1100
+        width: 352
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58b3cfb1cf4dba438bb2e5851828cbe
+      internalID: -1976907923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 590
+        width: 354
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd7f9259817caa4aabd29e8c2280b2a
+      internalID: 1983700437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_49
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 591
+        width: 354
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b328a86b86fba7749be93feba568f501
+      internalID: -1485480784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_50
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 592
+        width: 354
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1fc8da52f6dc244b5d7f645bc0a0e5
+      internalID: -455552423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_51
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 592
+        width: 352
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125171994479ec74f8320e6248c048bd
+      internalID: 1064546582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_52
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 592
+        width: 352
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf9a3453ecf2ed43beb36d74768d45b
+      internalID: 489671044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_53
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 592
+        width: 352
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a232d9f4c53f254bb1c8c47cd1e4cf9
+      internalID: -220286617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_54
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 590
+        width: 352
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9038bb230a2ed49b6f8d17599fbcdd
+      internalID: -1866515798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_55
+      rect:
+        serializedVersion: 2
+        x: 3676
+        y: 586
+        width: 354
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d534bef848717564b8a532875babc83e
+      internalID: 88707039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_56
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 72
+        width: 354
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18820db01c65b1345a6e9211d725ca87
+      internalID: -1630393256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_57
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 70
+        width: 356
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae517ece2b03e9543b976bff3dadfb91
+      internalID: 1118460948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_58
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 68
+        width: 358
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8adef1b904e0446af2b42e6f489b5b
+      internalID: -371643284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AuraVFX_59
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 68
+        width: 360
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3f91e194273df4187f723fb08f44c7
+      internalID: 1598684152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AuraVFX_0: 39064026
+      AuraVFX_1: -1476486836
+      AuraVFX_10: 1012138251
+      AuraVFX_11: -528294384
+      AuraVFX_12: -862108074
+      AuraVFX_13: -998434246
+      AuraVFX_14: 1882921565
+      AuraVFX_15: 1867526702
+      AuraVFX_16: -1211956574
+      AuraVFX_17: 1176701404
+      AuraVFX_18: 220003891
+      AuraVFX_19: 1028908786
+      AuraVFX_2: -1760981652
+      AuraVFX_20: 33320632
+      AuraVFX_21: 236285742
+      AuraVFX_22: 1122049670
+      AuraVFX_23: 416500153
+      AuraVFX_24: 856324903
+      AuraVFX_25: 484685842
+      AuraVFX_26: -1765504881
+      AuraVFX_27: -1070516325
+      AuraVFX_28: 734880302
+      AuraVFX_29: 1009054869
+      AuraVFX_3: 1921614353
+      AuraVFX_30: -1081552751
+      AuraVFX_31: -1535816372
+      AuraVFX_32: -2128972637
+      AuraVFX_33: 189534193
+      AuraVFX_34: 1692954058
+      AuraVFX_35: 1708140012
+      AuraVFX_36: 530597845
+      AuraVFX_37: -734838310
+      AuraVFX_38: 1473765204
+      AuraVFX_39: -618634725
+      AuraVFX_4: 1112230742
+      AuraVFX_40: 1326319120
+      AuraVFX_41: 528902273
+      AuraVFX_42: 1302454986
+      AuraVFX_43: -2123061109
+      AuraVFX_44: 64888322
+      AuraVFX_45: 131118988
+      AuraVFX_46: 673538827
+      AuraVFX_47: -1976907923
+      AuraVFX_48: 1983700437
+      AuraVFX_49: -1485480784
+      AuraVFX_5: 1160503478
+      AuraVFX_50: -455552423
+      AuraVFX_51: 1064546582
+      AuraVFX_52: 489671044
+      AuraVFX_53: -220286617
+      AuraVFX_54: -1866515798
+      AuraVFX_55: 88707039
+      AuraVFX_56: -1630393256
+      AuraVFX_57: 1118460948
+      AuraVFX_58: -371643284
+      AuraVFX_59: 1598684152
+      AuraVFX_6: 1725932431
+      AuraVFX_7: -1507681981
+      AuraVFX_8: 978641602
+      AuraVFX_9: 1062240387
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
