@@ -15,7 +15,7 @@ public class BubbleBehavior : MonoBehaviour
 
     DragView dragView;
 
-    public UnityAction annexedBubble;
+    [SerializeField] Sprite annexedBubbleVFX;
     public UnityAction increasedBubble;
 
     public float CurrentBubbleSize
@@ -71,7 +71,7 @@ public class BubbleBehavior : MonoBehaviour
         else if(otherBubbleSize > _currentBubbleSize)
         {
             float newBubbleSize = 0;
-            annexedBubble?.Invoke();
+            GetComponent<SpriteRenderer>().sprite = annexedBubbleVFX;
             transform.DOScale(newBubbleSize, mergeTime).OnComplete(() => DestroyBubble());
         }
         else if(_currentBubbleSize == otherBubbleSize) 

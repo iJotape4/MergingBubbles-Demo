@@ -3,21 +3,24 @@ using UnityEngine;
 public class BubbleVFX : MonoBehaviour
 {
     BubbleBehavior bubbleBehavior;
-    SpriteRenderer spriteRenderer;
 
-    [SerializeField] Sprite annexedBubbleVFX;
-    [SerializeField] GameObject increasedBubbleVFX;
+    [SerializeField] Animator increasedBubbleVFX;
+    [HideInInspector] const string increasedBubbleVFXParam = "TriggerVFXAnimation";
 
     private void Awake()
     {
-        bubbleBehavior = GetComponent<BubbleBehavior>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
-        bubbleBehavior.annexedBubble += AnnexedBubbleVFX;
+        bubbleBehavior = GetComponentInParent<BubbleBehavior>();
+        bubbleBehavior.increasedBubble += IncreasedBubbleVFX;
     }
 
-    private void AnnexedBubbleVFX()
+    private void IncreasedBubbleVFX()
     {
-        spriteRenderer.sprite = annexedBubbleVFX;
+        increasedBubbleVFX.SetTrigger(increasedBubbleVFXParam);  
+    }
+
+    //Triggered with Animation event
+    public void AnimationEnd()
+    {
+        increasedBubbleVFX.SetBool(increasedBubbleVFXParam, false);
     }
 }
