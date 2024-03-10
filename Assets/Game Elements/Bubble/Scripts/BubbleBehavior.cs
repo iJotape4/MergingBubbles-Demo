@@ -34,7 +34,8 @@ public class BubbleBehavior : MonoBehaviour
         if(otherBubbleSize < _currentBubbleSize) 
         { 
             float newBubbleSize = _currentBubbleSize + otherBubbleSize;
-            transform.DOScale(newBubbleSize, mergeTime);        
+            transform.DOScale(newBubbleSize, mergeTime);  
+            _currentBubbleSize = newBubbleSize;
         }
         else if(otherBubbleSize > _currentBubbleSize)
         {
@@ -45,6 +46,7 @@ public class BubbleBehavior : MonoBehaviour
         {
             Debug.Log("Bubbles has an equal size, can't be merged");
         }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
