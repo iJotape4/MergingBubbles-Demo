@@ -9,7 +9,7 @@ public class CameraScaler : MonoBehaviour
     private const float FOVmultiplier = 5f;
     [SerializeField] float cameraScaleTime = 0.5f;
 
-    bool scalingEnabled = true;
+    bool scalingEnabled = false;
 
     private void Awake()
     {
@@ -17,6 +17,12 @@ public class CameraScaler : MonoBehaviour
         currentCameraSize = mainCamera.orthographicSize;
         EventManager.AddListener<float>(BubbleEvents.bubbleMerged, ResizeCamera);
         EventManager.AddListener<bool>(CameraEvents.switchCameraScalerActive, SwitchCameraScalingEnable);
+    }
+
+    private void OnDestroy()
+    {
+        EventManager.RemoveListener<float>(BubbleEvents.bubbleMerged, ResizeCamera);
+        EventManager.RemoveListener<bool>(CameraEvents.switchCameraScalerActive, SwitchCameraScalingEnable);
     }
 
     private void ResizeCamera(float eventData)

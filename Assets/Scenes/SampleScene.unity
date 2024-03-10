@@ -209,7 +209,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!114 &12667657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,7 +533,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129330930719278040, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
       propertyPath: _currentBubbleSize
-      value: 1.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1742021813310898585, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -728,7 +728,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1129330930719278040, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
       propertyPath: _currentBubbleSize
-      value: 1.05
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1742021813310898585, guid: 958c2988e8f83634ab4ccaedd0f89a42, type: 3}
       propertyPath: m_LocalPosition.x

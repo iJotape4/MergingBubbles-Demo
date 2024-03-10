@@ -1,6 +1,8 @@
 using DG.Tweening;
 using UnityEngine;
 using Events;
+using UnityEngine.EventSystems;
+using System;
 
 public class BubbleBehavior : MonoBehaviour
 {
@@ -8,6 +10,10 @@ public class BubbleBehavior : MonoBehaviour
 
     [SerializeField] private float _currentBubbleSize = 1f;
     [SerializeField] private float mergeTime = 0.5f;
+
+    [SerializeField] private float artifitialSizeIncreaseOnSelect = 0.05f; 
+
+    DragView dragView;
 
     public float CurrentBubbleSize
     {
@@ -22,8 +28,27 @@ public class BubbleBehavior : MonoBehaviour
 
     private void Awake()
     {
+        dragView = GetComponent<DragView>();     
+    }
+
+    private void Start()
+    {
+        SetBubbleSize();
+        dragView.OnDragBegan += IncreaseBubbleSizeArtifitially;
+        dragView.OnDragEnded += DecreaseBubbleSizeArtifitially;
+    }
+    private void IncreaseBubbleSizeArtifitially(PointerEventData data)
+    {
+        _currentBubbleSize += artifitialSizeIncreaseOnSelect;
         SetBubbleSize();
     }
+
+    private void DecreaseBubbleSizeArtifitially(PointerEventData data)
+    {
+        _currentBubbleSize -= artifitialSizeIncreaseOnSelect;
+        SetBubbleSize();
+    }
+
 
     void SetBubbleSize()
     {
